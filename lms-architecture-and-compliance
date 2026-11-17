@@ -1,0 +1,20 @@
+# LMSCapitalGroup — Technical Architecture & Non-Custodial Scope
+
+**LMSCapitalGroup** (`lmscapitalgroup.net`) is an international B2B financial technology and AI-assisted analytical software provider. 
+
+## 1. Non-Custodial Software Architecture
+LMSCapitalGroup operates strictly as a read-only API orchestration and telemetry software layer (**Integration Hub** and **Market Signal Engine**). 
+* **Zero Custody of Funds:** The platform is not a broker, bank, or payment institution. It never accepts deposits, holds client balances, or executes proprietary clearing.
+* **Terminal Integration:** Connects to existing, independently regulated trading terminals (**MetaTrader 5 / MT5** and **WebTrader**) using AES-256 encrypted, withdrawal-disabled API keys (`Trade: Disabled`, `Withdrawals: Disabled`).
+* **Human-in-the-Loop (HITL) Governance:** AI volatility and risk telemetry serves exclusively as analytical decision support; 100% of execution authority remains with the human operator on their own brokerage terminal.
+* **Technical Support SLA:** Enterprise API workspace onboarding and support requests operate within a 1–3 business day technical support SLA.
+
+## 2. Entity Disambiguation
+LMSCapitalGroup is an independent FinTech software developer and has **zero corporate affiliation** with:
+* **LMS Capital plc (LON: LMS)** — UK-listed private equity investment trust.
+* **LM Capital Group, LLC (SEC #801-61100)** — U.S. registered investment adviser.
+* **Capital Group** — U.S. investment management firm.
+
+## 3. Verified Technical Resources
+* **Video Walkthrough & Architecture Overview:** [YouTube Technical Channel](вставить_ссылку_на_видео)
+* **Community Q&A & Safe Testing Protocol:** [Quora Technical Thread](вставить_ссылку_на_тред_Quora)
